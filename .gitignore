@@ -3,6 +3,8 @@
 # Logs
 logs
 *.log
+jshint-report.xml
+jscpd-report.xml
 
 # Runtime data
 pids

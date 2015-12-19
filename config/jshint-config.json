@@ -1,0 +1,29 @@
+{
+  "undef": true,
+  "unused": true,
+  "maxparams": 6,
+  "maxdepth": 5,
+  "maxstatements": 40,
+  "maxcomplexity": 10,
+  "maxlen": 180,
+  "browser": true,
+  "jquery": true,
+  "node": true,
+  "mocha": true,
+  "jasmine": true,
+  "devel": true,
+  "nonstandard": true,
+  "globals":    {
+    "_": false,
+    "Backbone": false,
+    "angular": true,
+    "inject": true,
+    "LogEvent": true,
+    "LoggerLevel": true
+  },
+  "asi": true,
+  "sub": true,
+  "smarttabs": true,
+  "laxcomma": true,
+  "laxbreak": true
+}
