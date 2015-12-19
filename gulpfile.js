@@ -18,7 +18,7 @@ gulp.task('serve', [], function() {
 
 gulp.task('test-quality', [], function(){
     console.log('running jshint tests');
-    var command = 'bash ./node_modules/.bin/jshint . --reporter checkstyle -c ./config/jshint-config.json > player-jshint.xml';
+    var command = 'bash ./node_modules/.bin/jshint . --reporter checkstyle -c ./config/jshint-config.json > jshint-report.xml';
     exec(command, function(err){
         var message = err || 'jshint finished. Output file: jshint-report.xml';
         console.log(message.toString());
